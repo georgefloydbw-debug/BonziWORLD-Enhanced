@@ -1,43 +1,38 @@
 {
-  "name": "bonziworld_e_server",
-  "version": "1.0.0",
-  "description": "Server for the BonziWORLD Enhanced chat client.",
-  "author": "Cosmic",
+  "name": "bonziworld_server",
+  "version": "2.0.2",
+  "description": "Server for the BonziWORLD chat client.",
+  "main": "server.js",
+  "author": "Joseph Judge",
   "private": true,
   "license": "MIT",
-  "keywords": ["bonziworld"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CosmicStar98/BonziWORLD-Enhanced.git"
-  },
-  "bugs": {
-    "url": "https://github.com/CosmicStar98/BonziWORLD-Enhanced/issues"
-  },
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=19"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "dependencies": {
-    "axios": "^0.27.2",
-    "bad-words": "^3.0.4",
-    "body-parser": "^1.20.1",
-    "cookie-parser": "^1.4.6",
-    "discord-webhook-node": "^1.1.8",
-    "express": "^4.16.4",
-    "fs-extra": "^7.0.1",
-    "got": "^12.5.0",
-    "http": "^0.0.1-security",
-    "javascript-obfuscator": "^4.0.2",
-    "mediaserver": "^0.1.1",
+    "create-react-app": "^5.0.0",
+    "dgram": "^1.0.1",
+    "express": "^4.19.0",
+    "follow-redirects": "^1.15.6",
+    "fs-extra": "^11.1.1",
+    "global": "^4.4.0",
+    "http-server": "^14.1.1",
+    "jquery": "^3.7.1",
     "merge": "^2.1.1",
-    "nodemon": "^2.0.20",
-    "reload": "^3.2.0",
-    "sanitize-html": "^2.3.2",
+    "messageformat": "^2.3.0",
+    "moment": "^2.30.1",
+    "ngrok": "^4.3.3",
+    "popper.js": "^1.16.1",
+    "sanitize-html": "^2.13.0",
+    "simple-get": "^4.0.1",
     "socket.io": "^2.2.0",
-    "url": "^0.11.0",
-    "winston": "^3.1.0"
+    "socket.io-client": "^4.4.1",
+    "winston": "^3.13.0",
+    "ws": "^8.17.0",
+    "xterm": "^5.3.0"
   }
 }
